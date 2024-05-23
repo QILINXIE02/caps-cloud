@@ -1,0 +1,17 @@
+{
+  "name": "caps-cloud",
+  "version": "1.0.0",
+  "description": "CAPS system using AWS SQS and SNS",
+  "main": "vendor.js",
+  "scripts": {
+    "start:vendor": "node vendor.js",
+    "start:driver": "node driver.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1048.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {},
+  "author": "Qilin Xie",
+  "license": "ISC"
+}
